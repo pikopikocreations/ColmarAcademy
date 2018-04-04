@@ -10,27 +10,41 @@
 
 </head>
 
-<body>
+<body> 	
+	
+	
+	<!-- 1080 wide, centered -->
+
 	
 	<!-- Header -->
 	
 <header>
 	<div class="navigation">
 		<div class="logo">
-			<img src="./resources/images/ic-logo.svg" alt="Colmar Academy Lion Logo"/> 
-			<h1 class="bold">COLMAR</h1><h1 class="lightgray">ACADEMY</h1>
+		  <a href="#"></a><img src="./resources/images/ic-logo.svg" alt="Colmar Academy Lion Logo"/> 
+		  <h1 class="bold">COLMAR</h1><h1 class="lightgray">ACADEMY</h1>
 		</div>
 		
 	<!-- navigation -->
 
 		<nav class="menu desktop">
-			<span><a href="#">On Campus</a></span>
+			<a href="#">On Campus</a></span>
 			<span><a href="#">Online</a></span>
 			<span><a href="#">For Companies</a></span>
 			<span><a href="#">Sign in</a></span>
 		</nav>
 	
 	</div>
+
+	<!-- mobile navigation -->
+
+	<nav class="navigation-mobile">
+			<a href="#"><img src="resources/images/ic-logo.jpg" alt="Colmar Academy Lion Logo"/></a>
+			<a href="#"><img src="resources/images/ic-on-campus.svg" alt="On Campus"/></a>
+			<a href="#"><img src="resources/images/ic-online.svg" alt="For Companies"/></a>
+			<a href="#"><img src="resources/images/ic-login.svg" alt="Sign in"/></a>
+		</nav>
+	
 	</header>	
 	
 		<!-- banner -->
@@ -186,8 +200,10 @@
 	
 	  <div class="LHS">
 			<div class="hero">
-				<video src="./resources/video/thesis.mp4"></video>
-			
+				<video width="100%" controls autoplay loop>
+  					<source src="./resources/videos/thesis.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
 			</div>
 		<h4>Reimagine urban</h4>
 			<p>“I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.”</p>
@@ -195,21 +211,21 @@
 	  </div>
 		<div class="RHS">
 			<div class="news">
-				<div class="news-item"> 
-					<div class="news-image">
+				<div class="thesis-item"> 
+					<div class="thesis-image">
 						<img src="./resources/images/thesis-fisma.jpg"  alt="Fisma designers brainstorming on paper"/>
 					</div>
-					<div class="news-body">
+					<div class="thesis-body">
 					  <h4>Fisma: Design and prototype</h4>
 					  <p>Designer showcase of new and prototype product</p>
 					  <p class="read-more"><a href="#">Read more</a></p>
 					</div>
 				</div>
-				<div class="news-item"> 
-					<div class="news-image">
+				<div class="thesis-item"> 
+					<div class="thesis-image">
 						<img src="./resources/images/thesis-now-and-then.jpg"  alt="New York cityscape"/>
 					</div>
-					<div class="news-body">
+					<div class="thesis-body">
 					  <h4>Now and then</h4>
 					  <p>Research study of New York</p>
 					  <p class="read-more"><a href="#">Read more</a></p>
@@ -236,3 +252,6 @@
 
 </body>
 </html>
+
+
+
