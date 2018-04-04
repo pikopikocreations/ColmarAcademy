@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+/* Global */
+
+html {
+	font-size: 14px;
+	font-family: Helvetica, sans-serif;
+}
+
+div {
+	border: solid red 1px;
+	color: #444444;
+}
+
+body {
+	width: 1080px;
+	line-height: 1.4;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+img {
+	width: 100%;
+}
+
+
+
+/* typography */
+
+h1  {
+	font-size: 1.65rem;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 2.5rem;
+	line-height: 1.2;
+	margin-top: 32px;
+	margin-bottom: 24px;
+}
+
+h3 {
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+}
+
+h4 {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+h5 {
+	margin:  8px 0;
+}
+
+p {
+	color: #444444;
+}
+
+a {
+	color: #444444;
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.lightgray {
+	color: #999999;
+}
+
+.quoted-by {
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+
+.container {
+	padding: 32px 0;
+	display: flex;
+}
+
+.grey {
+	background-color: #BFBFBF;
+}
+
+
+/* Header */
+
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 64px;
+	
+
+
+
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	
+}
+
+.logo img {
+	height: 32px;
+	margin: 0 12px 0 24px;
+}
+
+.menu {
+	margin-right: 16px;
+}
+
+.menu span {
+	padding: 8px;
+}
+
+/* body content */
+
+.LHS {
+	width: 60%;
+	padding: 0 24px;
+}
+
+.RHS {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.button {
+	background-color: #444444;
+	width: 50%;
+	text-align: center;
+	padding: 8px 0;
+	color: white;
+	font-size: 1.2rem;
+	margin-top: 1rem;
+}
+.button a {
+	color: #ffffff;
+}
+
+/* news */
+
+.news {
+	display: flex;
+	flex-direction: column;
+}
+.news-item {
+	display: inline-flex;
+	margin: 16px;
+}
+
+.news-body {
+	width: 65%;
+	padding: 16px;
+}
+
+/* courses */
+
+.centred  {
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: -24px;
+	
+}
+
+.container-courses h2 {
+	text-align: center;
+}
+
+.courses {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 48px;
+
+	
+}
+.course {
+	flex-direction: column;
+	margin: 16px;
+	background-color: white;
+	width: 29%;
+	
+	}
+
+.course-body {
+	padding: 16px;
+}
+
+/* thesis */
+
+
+
+/* image/video */
+
+.hero {
+	background-color: red;
+}
+
+.news-image {
+	background-color: red;
+	width: 35%;
+
+}
+
+.course-image {
+	background-color: red;
+	width: 100%;
+}
+
+
+video {
+	margin-bottom: 24px;
+}
+
+/* footer */
+footer .container{
+	justify-content: space-between;
+	border-top: 1px grey solid;
+}
+
+.terms .span {
+	padding-left: 1rem;
+}
