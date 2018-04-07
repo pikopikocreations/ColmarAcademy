@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Colmar Academy</title>
+	<link href="https://fonts.googleapis.com/css?family=Catamaran|Noto+Serif|Satisfy" rel="stylesheet">
 	<link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
 	<link href="./resources/css/style.css" type="text/css" rel="stylesheet">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 </head>
@@ -17,13 +19,13 @@
 <header>
 	<div class="navigation">
 		<div class="logo">
-		  <a href="#"></a><img src="./resources/images/ic-logo.svg" alt="Colmar Academy Lion Logo"/>
-		  <h1 class="bold">COLMAR</h1><h1 class="lightgray">ACADEMY</h1>
+		  <a href="#"><img src="./resources/images/ic-logo.svg" alt="Colmar Academy Lion Logo"/></a>
+			  <h1 class="bold">COLMAR</h1><h1 class="lightgray">ACADEMY</h1>
 		</div>
 
 	<!-- desktop navigation -->
 
-		<nav class="menu-desktop">
+		<nav>
 			<span><a href="#">On Campus</a></span>
 			<span><a href="#">Online</a></span>
 			<span><a href="#">For Companies</a></span>
@@ -52,10 +54,10 @@
 			</div>
 		</div>
 		<div class="RHS vert-center">
-			<h2 class="big">Learn something new everyday</h2>
-			<h3>Challenge yourself to learn something new every day. </h3>
-			<div class="button">
-				<span><a href="#">Start here</a></span>
+			<div class="banner-body">
+				<h2 class="big">Learn something new everyday</h2>
+				<h3>Challenge yourself to learn something new every day. </h3>
+				<button class="button">Start here</button>
 			</div>
 		</div>
 	</div>
@@ -63,11 +65,11 @@
 			<!-- Articles -->
 
 	<div class="container">
-		<div class="LHS">
+		<div class="LHS hide">
 			<div class="hero">
 	   			<img src="./resources/images/information-main.jpg"  alt="Students reading Colmar Academy prospectus"/>
 			</div>
-			<h2>It doesn't hurt to keep practicing</h2>
+			<h2 class="margin-top">It doesn't hurt to keep practicing</h2>
 			<p class="quote">"Some people say that practice makes perfect but I just feel that the repetition works against me and I start thinking too far ahead."</p>
 		  <p class="quoted-by">Emanual, Senior Strategist</p>
 		</div>
@@ -111,7 +113,7 @@
 			<!-- Curriculum -->
 
 	<div class="container-courses grey">
-	  <h2>Start Learning</h2>
+	  <div class="title">Start Learning</div>
 	  <div class="courses">
 			<div class="course">
 					<div class="course-image">
@@ -190,7 +192,7 @@
 <!-- Thesis -->
 
 <div class="container-thesis">
-		<h2>Thesis</h2>
+		<div class="title">Thesis</div>
 
 	<div class="container">
 
@@ -201,13 +203,15 @@
 					Your browser does not support the video tag.
 				</video>
 			</div>
-		<h4>Reimagine urban</h4>
-			<p class="quote">“I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.”</p>
-			<p class="quoted-by">Albert Einstein</p>
+		  	<div class="hero-body">
+				<h4 class="margin-top">Reimagine urban</h4>
+				<p class="quote">“I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.”</p>
+				<p class="quoted-by">Albert Einstein</p>
+		  </div>
 	  </div>
 		<div class="RHS">
 			<div class="news">
-				<div class="thesis-item">
+				<div class="thesis-item hide">
 					<div class="thesis-image">
 						<img src="./resources/images/thesis-fisma.jpg"  alt="Fisma designers brainstorming on paper"/>
 					</div>
@@ -217,7 +221,7 @@
 					  <p class="read-more"><a href="#">Read more</a></p>
 					</div>
 				</div>
-				<div class="thesis-item">
+				<div class="thesis-item hide">
 					<div class="thesis-image">
 						<img src="./resources/images/thesis-now-and-then.jpg"  alt="New York cityscape"/>
 					</div>
@@ -235,7 +239,10 @@
 <!-- Footer -->
 
 <footer>
-		<span><a href="www.pikopiko.com.au">&copy; Piko Piko Creations.</a> All rights reserved.</span>
+		<span><a href="http://www.pikopiko.com.au">&copy; Piko Piko Creations.</a> All rights reserved.</span>
+	<i class="fa fa-facebook"></i><i class="fa fa-twitter"></i><i class="fa fa-pinterest"></i>
+		
+
 		<span><a href="#">Terms </a><a href="#">Privacy</a></span>
 </footer>
 
